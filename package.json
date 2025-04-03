@@ -1,0 +1,24 @@
+{
+  "name": "spotify-api-app",
+  "version": "1.0.0",
+  "description": "A simple application to interact with the Spotify API.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.1.1",
+    "@types/node": "^14.14.31",
+    "@types/express": "^4.17.11"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
